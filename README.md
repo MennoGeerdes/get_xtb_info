@@ -6,7 +6,7 @@ The results are printed out in a line in csv format.
 
 Syntaxis:
 
-python get_xtb_info.py [path_to_xTB_output_file] 
+* python get_xtb_info.py [path_to_xTB_output_file] 
 
 optional arguments: 
 * [-X number_of_atom_X_in_input_geometry] 
