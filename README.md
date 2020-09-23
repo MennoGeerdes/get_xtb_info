@@ -23,13 +23,13 @@ A valid path to an output file from xTB calculations is required.
 The printed line starts with a comma, so you have to manually add the index number before each line when looping multiple files.
 
 When only a path to an output file is given, the following properties are extracted:
-*HOMO,LUMO,Total_energy,Gibbs_energy
+* HOMO,LUMO,Total_energy,Gibbs_energy
 
 When atom number X is added, this additional info is extracted regarding atom X:
-*species(C or N for example),atom_nr,charge_in_geometry,coordination_nr,sum_of_atomnrs_of_coordinating_atoms
+* species(C or N for example),atom_nr,charge_in_geometry,coordination_nr,sum_of_atomnrs_of_coordinating_atoms
 
 When atom H is specified as well, it also extracts:
-*charge_of_atom_H_in_geometry,X-H_distance
+* charge_of_atom_H_in_geometry,X-H_distance
 
 The line is printed as follows (add --header option for latest structure):
-*,HOMO,LUMO,Etotal,Egibbs,Xspecies,Xatomnr,Xcharge,Xcoordination,Xsumcoord,Hcharge,XH
+* ,HOMO,LUMO,Etotal,Egibbs,Xspecies,Xatomnr,Xcharge,Xcoordination,Xsumcoord,Hcharge,XH
